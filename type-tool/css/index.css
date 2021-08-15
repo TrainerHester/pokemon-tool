@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.input {
+    width: 600px;
+    margin: 10px auto;
+}
+
+.input>input {
+    padding: 2px 5px;
+    margin: 0;
+    width: 100%;
+    height: 26px;
+}
+
+.output {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 2px;
+    overflow: auto;
+}
+
+.output .type-output {
+    padding: 0 10px;
+    border: 1px solid #3769aa;
+}
+
+.output p {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+.output span.bold {
+    font-weight: bold;
+}
+
+.weaknesses>span:first-child {
+    color: red;
+}
+
+.resistance>span:first-child {
+    color: blue;
+}
+
+.immunities>span:first-child {
+    color: gray;
+}
